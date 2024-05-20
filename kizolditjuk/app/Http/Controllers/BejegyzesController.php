@@ -25,6 +25,5 @@ class BejegyzesController extends Controller
         $bejegyzes->osztaly_id = $request->osztaly_id;
         $bejegyzes->allapot = $request->allapot;
         $bejegyzes->save();
-        return response()->json($bejegyzes);
     }
 }

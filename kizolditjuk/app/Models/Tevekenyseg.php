@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Tevekenyseg extends Model
 {
     use HasFactory;
+    public $timestamps = false;
 
     protected $fillable = [
         'tevekenyseg_nev',

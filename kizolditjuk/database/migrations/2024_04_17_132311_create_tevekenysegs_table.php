@@ -16,7 +16,7 @@ return new class extends Migration
             $table->id('tevekenyseg_id');
             $table->string('tevekenyseg_nev');
             $table->integer('pontszam');
-            $table->timestamps();
+            //$table->timestamps();
         });
 
         Tevekenyseg::create(['tevekenyseg_nev' => 'kerékpárral jöttem iskolába', 'pontszam' => 20]);

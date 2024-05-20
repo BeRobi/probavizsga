@@ -17,7 +17,7 @@ return new class extends Migration
             $table->foreignId('tevekenyseg_id')->references('tevekenyseg_id')->on('tevekenysegs');
             $table->string('osztaly_id');
             $table->integer('allapot');
-            $table->timestamps();
+            //$table->timestamps();
         });
 
         Bejegyzes::create(['tevekenyseg_id' => 2, 'osztaly_id' => 'szf2', 'allapot' => 1]);

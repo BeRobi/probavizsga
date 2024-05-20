@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\BejegyzesController;
 use App\Http\Controllers\TevekenysegController;
-use App\Models\Bejegyzes;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
